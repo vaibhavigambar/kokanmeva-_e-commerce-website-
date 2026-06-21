@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fdf6e3, #e6ffe6);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #006400, #228b22);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../images/kokan.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+
+/* FEATURES SECTION */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 80px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #006400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
